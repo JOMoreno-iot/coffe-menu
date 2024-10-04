@@ -1,0 +1,86 @@
+body{
+    padding: 30px;  /* padding= acolchado genera un espacio entre el menu */
+   background-image:url(imagen/granos-de-cafe.jpg); 
+   font-family: fantasy;
+   /* configura el tipo de letras de cuerpo*/
+}
+.menu{
+    max-width: 300px; /*En pantallas grandes. Limita el ancho maximo de menu para que no se separe el nombre y el precio. */
+    padding-left: 20px; /* padding: controla el espacio entre el contenido y el borde*/
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 50%;
+    background-color: rgb(42, 165, 108);
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* configurlo el icono de cafe paraque se muestre centrado */
+    /* size: 5px; */
+}
+.postre{
+    width: 15%;
+    height: 15%;
+}
+.texto{
+    font-size: 20px;
+}
+.flavor, .dessert{
+    text-align: left;
+    width: 50%;
+}
+.price{
+    text-align: right;
+    width: 40%;
+}
+.item p {
+    display: inline-block;   /* inline para que se muestren en una sola linea. block para configurar el ancho y alto */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+hr {
+    height: 3px;
+    background-color: brown;
+    border-color: blue;
+}
+h1{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+h1, h2, p{
+    text-align: center;     /*Configura h1, h2 y p con texto central. Para el menu*/
+}
+h1, h2{
+    font-family: Impact, serif;  /* Configura h1 y h2 con el tipo de letra */
+}
+.establecimiento{
+    font-style: italic;
+}
+/*FOOTER */
+footer{
+    font-size: 30px;
+    }
+a:visited {
+    color:aquamarine;
+}
+a{
+    color:black
+}
+a:hover{
+    color: beige;
+}
+.texto{
+    font-size: 10px;
+}
+a:active{
+    color: white
+}
+.direccion{
+    margin-bottom: 5px;
+    font-size: 10px;
+}
